@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div {
+  font-size: 4rem;
+  margin: 1rem;
+}
+
+button {
+  margin: 1rem;
+  font-size: 5rem;
+  padding: 1rem;
+  background: none;
+  border: none;
+  transition: 100ms;
+}
+
+button:hover {
+  scale: 1.1;
+}
